@@ -7,7 +7,7 @@
     android:background="#FFFFFF"
     android:gravity="top"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="15dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -32,6 +32,7 @@
         android:textSize="16dp" />
 
     <EditText
+        android:id="@+id/edtLoginID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일양식으로 입력하세요"
@@ -40,16 +41,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="25dp"
         android:text="비밀번호"
         android:textSize="16dp" />
 
     <EditText
+        android:id="@+id/edtLoginPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호 입력"
         android:inputType="textPassword" />
-
 
     <!-- 수직간격조정 -->
     <TextView
@@ -58,18 +59,10 @@
         android:layout_weight="1" />
     <!-- 수직간격조정 -->
 
-    <LinearLayout
+    <Button
+        android:id="@+id/clickLoginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="로그인" />
-
-    </LinearLayout>
+        android:text="로그인" />
 
 </LinearLayout>
