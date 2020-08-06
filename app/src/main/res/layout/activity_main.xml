@@ -32,7 +32,7 @@
         android:textSize="16dp" />
 
     <EditText
-        android:id="@+id/edtLoginID"
+        android:id="@+id/edtLoginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일양식으로 입력하세요"
@@ -60,7 +60,7 @@
     <!-- 수직간격조정 -->
 
     <Button
-        android:id="@+id/clickLoginBtn"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인" />
